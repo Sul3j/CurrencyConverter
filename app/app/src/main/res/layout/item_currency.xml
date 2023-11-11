@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10px">
+
+    <TextView
+        android:id="@+id/codeTextView"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Code"
+        android:textSize="18sp"
+        android:background="#F6D55C"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/currencyTextView"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Currency"
+        android:textSize="18sp"
+        android:background="#E3AA"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/midTextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Mid"
+        android:textSize="18sp"
+        android:background="#DDED553B"
+        android:textAlignment="center"/>
+
+</LinearLayout>
